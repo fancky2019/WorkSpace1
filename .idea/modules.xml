@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/WorkSpace1.iml" filepath="$PROJECT_DIR$/.idea/WorkSpace1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/fancky-common/fancky-common.iml" filepath="$PROJECT_DIR$/fancky-common/fancky-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/fancky-dao/fancky-dao.iml" filepath="$PROJECT_DIR$/fancky-dao/fancky-dao.iml" />
+      <module fileurl="file://$PROJECT_DIR$/fancky-model/fancky-model.iml" filepath="$PROJECT_DIR$/fancky-model/fancky-model.iml" />
+      <module fileurl="file://$PROJECT_DIR$/fancky-service/fancky-service.iml" filepath="$PROJECT_DIR$/fancky-service/fancky-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/fancky-web/fancky-web.iml" filepath="$PROJECT_DIR$/fancky-web/fancky-web.iml" />
+    </modules>
+  </component>
+</project>
