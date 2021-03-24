@@ -1,15 +1,9 @@
-package com.fancky.controller;
+package com.fancky.web.controller;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
-
-
-import java.math.BigDecimal;
-import java.time.LocalDateTime;
-import java.util.List;
 
 
 @RestController
