@@ -1,5 +1,7 @@
 package com.fancky.model.entity;
 
+import com.baomidou.mybatisplus.annotation.TableName;
+import lombok.EqualsAndHashCode;
 import lombok.Getter;
 import lombok.Setter;
 
@@ -14,7 +16,9 @@ import java.io.Serializable;
  */
 @Getter
 @Setter
-public class UserInfo implements Serializable {
+@EqualsAndHashCode(callSuper = false)//有继承指定true
+@TableName("t_test_user_info")//mybatisPlus表映射
+public class UserInfo extends Object implements Serializable {
     private static final long serialVersionUID = -67400312429463546L;
     
     private Integer id;
