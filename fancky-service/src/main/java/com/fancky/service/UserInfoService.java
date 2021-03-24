@@ -15,8 +15,13 @@ public class UserInfoService {
     private UserInfoMapper userInfoMapper;
 
     public UserInfo queryById(Integer id) {
-
-        UserInfo userInfo = this.userInfoMapper.queryById(1);
-        return this.userInfoMapper.queryById(id);
+        try {
+            //在entity中指定表名称映射
+            UserInfo userInfo = this.userInfoMapper.selectById(1);
+            return this.userInfoMapper.queryById(id);
+        } catch (Exception ex) {
+            logger.error(ex.getMessage());
+            return null;
+        }
     }
 }
