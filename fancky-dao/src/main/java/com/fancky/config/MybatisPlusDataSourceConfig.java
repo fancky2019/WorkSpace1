@@ -27,7 +27,12 @@ public class MybatisPlusDataSourceConfig {
 //        return DataSourceBuilder.create().build();
 //    }
 
- //   @ConfigurationProperties(prefix = "mybatis")
+    /**
+     * 配置为了使用mybatisPlus baseMapper里面的方法
+     * @param dataSource
+     * @return
+     * @throws Exception
+     */
     @Bean(name = "mybatisPlusDataSource")
     public SqlSessionFactory sqlSessionFactory(@Qualifier("dataSource")DataSource dataSource) throws Exception {
         /**
