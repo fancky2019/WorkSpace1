@@ -53,7 +53,7 @@
   } ],
   "pkColumn" : null,
   "otherColumn" : null,
-  "savePackageName" : "com.fancky.fanckymodel",
-  "savePath" : "./fancky-dao/src/main/java/com/fancky/fanckymodel",
-  "saveModelName" : "fancky-dao"
+  "savePackageName" : "com.fancky",
+  "savePath" : "./fancky-web/src/main/java/com/fancky",
+  "saveModelName" : "fancky-web"
 }
