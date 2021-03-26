@@ -1,0 +1,44 @@
+[2021-03-26 15:29:18:185] [INFO] - Starting FanckyWebApplication using Java 15.0.1 on DESKTOP-M1OD1AL with PID 28120 (D:\fancky\git\Java\WorkSpace1\fancky-web\target\classes started by admin in D:\fancky\git\Java\WorkSpace1)
+[2021-03-26 15:29:18:189] [DEBUG] - Running with Spring Boot v2.4.1, Spring v5.3.2
+[2021-03-26 15:29:18:189] [INFO] - No active profile set, falling back to default profiles: default
+[2021-03-26 15:29:18:596] [DEBUG] - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+[2021-03-26 15:29:18:836] [INFO] - Tomcat initialized with port(s): 8103 (http)
+[2021-03-26 15:29:18:843] [INFO] - Initializing ProtocolHandler ["http-nio-8103"]
+[2021-03-26 15:29:18:843] [INFO] - Starting service [Tomcat]
+[2021-03-26 15:29:18:843] [INFO] - Starting Servlet engine: [Apache Tomcat/9.0.41]
+[2021-03-26 15:29:18:844] [INFO] - Loaded Apache Tomcat Native library [1.2.25] using APR version [1.7.0].
+[2021-03-26 15:29:18:844] [INFO] - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+[2021-03-26 15:29:18:844] [INFO] - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+[2021-03-26 15:29:18:847] [INFO] - OpenSSL successfully initialized [OpenSSL 1.1.1g  21 Apr 2020]
+[2021-03-26 15:29:18:901] [INFO] - Initializing Spring embedded WebApplicationContext
+[2021-03-26 15:29:18:902] [INFO] - Root WebApplicationContext: initialization completed in 686 ms
+[2021-03-26 15:29:18:946] [DEBUG] - Driver class com.mysql.cj.jdbc.Driver found in Thread context class loader jdk.internal.loader.ClassLoaders$AppClassLoader@2f0e140b
+[2021-03-26 15:29:18:962] [DEBUG] - Property 'configuration' or 'configLocation' not specified, using default MyBatis Configuration
+[2021-03-26 15:29:19:041] [DEBUG] - addMappedStatement: com.fancky.dao.UserInfoMapper.queryById
+[2021-03-26 15:29:19:041] [DEBUG] - addMappedStatement: com.fancky.dao.UserInfoMapper.queryAllByLimit
+[2021-03-26 15:29:19:042] [DEBUG] - addMappedStatement: com.fancky.dao.UserInfoMapper.queryAll
+[2021-03-26 15:29:19:043] [DEBUG] - addMappedStatement: com.fancky.dao.UserInfoMapper.insert
+[2021-03-26 15:29:19:044] [DEBUG] - addMappedStatement: com.fancky.dao.UserInfoMapper.update
+[2021-03-26 15:29:19:044] [DEBUG] - addMappedStatement: com.fancky.dao.UserInfoMapper.deleteById
+[2021-03-26 15:29:19:065] [WARN] - [com.fancky.dao.UserInfoMapper.insert] Has been loaded by XML or SqlProvider or Mybatis's Annotation, so ignoring this injection for [class com.baomidou.mybatisplus.core.injector.methods.Insert]
+[2021-03-26 15:29:19:069] [DEBUG] - addMappedStatement: com.fancky.dao.UserInfoMapper.delete
+[2021-03-26 15:29:19:071] [DEBUG] - addMappedStatement: com.fancky.dao.UserInfoMapper.deleteByMap
+[2021-03-26 15:29:19:072] [WARN] - [com.fancky.dao.UserInfoMapper.deleteById] Has been loaded by XML or SqlProvider or Mybatis's Annotation, so ignoring this injection for [class com.baomidou.mybatisplus.core.injector.methods.DeleteById]
+[2021-03-26 15:29:19:072] [DEBUG] - addMappedStatement: com.fancky.dao.UserInfoMapper.deleteBatchIds
+[2021-03-26 15:29:19:076] [WARN] - [com.fancky.dao.UserInfoMapper.update] Has been loaded by XML or SqlProvider or Mybatis's Annotation, so ignoring this injection for [class com.baomidou.mybatisplus.core.injector.methods.Update]
+[2021-03-26 15:29:19:078] [DEBUG] - addMappedStatement: com.fancky.dao.UserInfoMapper.updateById
+[2021-03-26 15:29:19:078] [DEBUG] - addMappedStatement: com.fancky.dao.UserInfoMapper.selectById
+[2021-03-26 15:29:19:079] [DEBUG] - addMappedStatement: com.fancky.dao.UserInfoMapper.selectBatchIds
+[2021-03-26 15:29:19:080] [DEBUG] - addMappedStatement: com.fancky.dao.UserInfoMapper.selectByMap
+[2021-03-26 15:29:19:083] [DEBUG] - addMappedStatement: com.fancky.dao.UserInfoMapper.selectOne
+[2021-03-26 15:29:19:085] [DEBUG] - addMappedStatement: com.fancky.dao.UserInfoMapper.selectCount
+[2021-03-26 15:29:19:087] [DEBUG] - addMappedStatement: com.fancky.dao.UserInfoMapper.selectMaps
+[2021-03-26 15:29:19:090] [DEBUG] - addMappedStatement: com.fancky.dao.UserInfoMapper.selectMapsPage
+[2021-03-26 15:29:19:091] [DEBUG] - addMappedStatement: com.fancky.dao.UserInfoMapper.selectObjs
+[2021-03-26 15:29:19:094] [DEBUG] - addMappedStatement: com.fancky.dao.UserInfoMapper.selectList
+[2021-03-26 15:29:19:096] [DEBUG] - addMappedStatement: com.fancky.dao.UserInfoMapper.selectPage
+[2021-03-26 15:29:19:096] [DEBUG] - Parsed mapper file: 'file [D:\fancky\git\Java\WorkSpace1\fancky-dao\target\classes\mapper\UserInfoMapper.xml]'
+[2021-03-26 15:29:19:194] [INFO] - Initializing ExecutorService 'applicationTaskExecutor'
+[2021-03-26 15:29:19:308] [INFO] - Starting ProtocolHandler ["http-nio-8103"]
+[2021-03-26 15:29:19:321] [INFO] - Tomcat started on port(s): 8103 (http) with context path ''
+[2021-03-26 15:29:19:327] [INFO] - Started FanckyWebApplication in 1.375 seconds (JVM running for 2.021)
